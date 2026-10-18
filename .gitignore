@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Vivado / HLS temporary files & logs
+*.log
+*.jou
+*.str
+.Xil/
+vivado_*.zip
+webtalk*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
