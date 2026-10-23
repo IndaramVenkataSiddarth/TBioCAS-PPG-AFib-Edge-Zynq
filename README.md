@@ -104,7 +104,7 @@ TBioCAS-PPG-AFib-Edge-Zynq/
   * **ROC-AUC:** **0.987** (95% CI: 0.971 – 0.996)
   * **Mean Per-Subject Accuracy:** **91.82%** (95% CI: 83.79% – 97.97%)
 * **Physical Silicon Deployment on PYNQ-Z2 (1,394 Held-Out Windows):**
-  * **On-Chip Accuracy:** **97.63%** (1,361 of 1,394 correct; matches simulation within 2 windows)
+  * **On-Chip Accuracy:** **97.63%** (1,361 of 1,394 correct) vs 97.78%(1,363 of 1394) in bit-accurate simulation; 22 predictions differ(12/10),cause not isolated
   * **Hardware Latency:** **0.188 ms** (direct MMIO array) | **0.087 ms** (pre-buffered array)
   * **Fabric Utilization:** 30 DSPs (13.64%), 7,762 LUTs (14.59%), 8,457 FFs (7.95%), 0.5 BRAM tiles (18 Kb)
   * **Power Consumption:** **~0.20 W** PL accelerator (100 MHz) | **1.525 W** ARM PS baseline (~1.73 W total SoC)
